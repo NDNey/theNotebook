@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+</head>
+<body>
+    <header>
+        <%- include('./partials/navbar'); %>
+      </header>
+      <form action="/profile/secret" method="get">
+      <input type="number" placeholder="Use Key to reveal your Memory" name='key' required>
+      <button type="submit">Reveal</button>
+      </form>
+      
+    <section id="cartita">
+        <header id="cartaEncabezado"></header>
+        <section id="cartaContenido">
+            <section id="cartaMensaje">
+                <h2  ><%= messages.title %></h2>
+                <p  ><%= messages.cipher %></p>
+                 
+            </section>
+            <section id="cartaFirma"><%= messages.date %></section>
+        </section>
+        <footer id="cartaFooter"></footer>
+             
+   
+    </section>
+
+</body>
+
+<style>
+  
+  form{
+    margin: 30px;
+  }
+  body{
+    background-image: url(https://img.freepik.com/free-vector/gold-frame-with-foliage-pattern-marble-textured-background-vector_53876-109076.jpg?size=626&ext=jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+  
+       
+    #cartita {
+      width: 60%;
+      margin: 0;
+      padding: 0;
+      opacity: 0.9;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+    #cartaEncabezado {
+      background-image: url(http://fotos.subefotos.com/e0139226fb6eb14f6009f4e87fa2f8c3o.png);
+      background-size: 100% 100%;
+      height: 78px;
+      margin-bottom: 40px;
+    }
+    #cartaContenido {
+      background-image: url(http://fotos.subefotos.com/cc42099b19996d043583e8a4377e8aaeo.png);
+      background-repeat: repeat-y;
+      background-size: 100% 100%;
+      min-height: 50px;
+      margin-top: -40px;
+      padding-bottom: 40px;
+    }
+    #cartaMensaje {
+      margin: 0 5% 0 5%;
+      padding: 0 5% 0 5%;
+      width: 90%;
+      text-align: center;
+      text-align: center;
+    }
+    #cartaFirma {
+      text-align: right;
+      font-size: 1em;
+      margin: 0 16%;
+    }
+    #cartaFooter {
+      background-image: url(https://fotos.subefotos.com/57f6ea113ab8b27188c4f496543efb4fo.png);
+      background-size: 100% 100%;
+      margin-top: -10px;
+      text-align: right;
+      font-size: 30px;
+      height: 78px;
+    }
+    
+    #reload {
+      margin: 5% 0 2% 0;
+      width: 120px;
+      height: 25px;
+    }
+    
+    </style>
+</html>

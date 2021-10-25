@@ -1,0 +1,48 @@
+   
+#cartita {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    float: right;
+  }
+  #cartaEncabezado {
+    background-image: url(http://fotos.subefotos.com/e0139226fb6eb14f6009f4e87fa2f8c3o.png);
+    background-size: 100% 100%;
+    height: 78px;
+    margin-bottom: 40px;
+  }
+  #cartaContenido {
+    background-image: url(http://fotos.subefotos.com/cc42099b19996d043583e8a4377e8aaeo.png);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    min-height: 50px;
+    margin-top: -40px;
+    padding-bottom: 40px;
+  }
+  #cartaMensaje {
+    margin: 0 5% 0 5%;
+    padding: 0 5% 0 5%;
+    width: 90%;
+    text-align: center;
+    text-align: center;
+  }
+  #cartaFirma {
+    text-align: right;
+    font-size: 1em;
+    margin: 0 16%;
+  }
+  #cartaFooter {
+    background-image: url(https://fotos.subefotos.com/57f6ea113ab8b27188c4f496543efb4fo.png);
+    background-size: 100% 100%;
+    margin-top: -10px;
+    text-align: right;
+    font-size: 30px;
+    height: 78px;
+  }
+  
+  #reload {
+    margin: 5% 0 2% 0;
+    width: 120px;
+    height: 25px;
+  }
