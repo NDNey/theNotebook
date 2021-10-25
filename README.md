@@ -1,5 +1,5 @@
-# Node Social Network
-This CRUD app with user login and authentication allows you to create, update, and delete posts. All uploaded images are stored using Cloudinary. User account information is stored elsewhere in MongoDB.
+# The Notebook 
+The Notebook is a CRUD app that provides a platform for users to journal. Journal text is encrypted with an algorithm. After submission, journal entries can only be accessed through a key. Without the key, users see alternate text, manipulated by the encryption. 
 
 <article>
       <div>
