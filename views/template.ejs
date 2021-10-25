@@ -13,8 +13,10 @@
 <body>
     <header>
         <%- include('./partials/navbar'); %>
-      </header>
-      <form action="/profile/secret" method="get">
+    </header>
+  <main>
+   <section>
+    <form action="/profile/secret" method="get">
       <input type="number" placeholder="Use Key to reveal your Memory" name='key' required>
       <button type="submit">Reveal</button>
       </form>
@@ -33,6 +35,8 @@
              
    
     </section>
+   </section>
+  </main>
 
 </body>
 
@@ -45,11 +49,19 @@
     background-image: url(https://img.freepik.com/free-vector/gold-frame-with-foliage-pattern-marble-textured-background-vector_53876-109076.jpg?size=626&ext=jpg);
     background-size: 100% 100%;
     height: 100vh;
+ 
+  }
+  main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  
   }
   
        
     #cartita {
-      width: 60%;
+      width: 100%;
       margin: 0;
       padding: 0;
       opacity: 0.9;

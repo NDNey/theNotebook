@@ -1,6 +1,8 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'Add DB string'', 
-    'dbName': 'demo'
+    'url' : 'mongodb+srv://project:project@cluster0.l6nuk.mongodb.net/note?retryWrites=true&w=majority', 
+    'dbName': 'note'
 };
+
+

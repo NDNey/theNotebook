@@ -18,8 +18,8 @@ The Notebook is a CRUD app that provides a platform for users to journal. Journa
 ## How To Use:
   - Fork the repo
   - Clone your forked repo.
-  - Make sure you add a MongoDB url
   - Do 'npm install' in your terminal.
   - Run with 'npm start' in your terminal.
+  - Log in with 'admin@admin.com'  password: 'admin'
 
 
